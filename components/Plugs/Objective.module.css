@@ -1,0 +1,7 @@
+.container {
+  @apply w-full py-24 font-bold text-center;
+}
+
+.container p {
+  @apply my-2;
+}

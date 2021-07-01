@@ -1,0 +1,4 @@
+.container {
+  @apply grid w-full grid-cols-1 text-white bg-gradient-to-br from-blue-600 to-blue-400;
+  @apply relative overflow-hidden h-96;
+}
