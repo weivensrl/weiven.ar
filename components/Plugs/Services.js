@@ -6,7 +6,7 @@ export default function Services() {
   return (
     <div className={styles.container}>
 
-      <div className="bg-fixed bg-white text-gray-50 pattern-diagonal-lines-lg">
+      <div className="bg-white">
         <div className={styles.services}>
           <div className={styles.item}>
             <Image

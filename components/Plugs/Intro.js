@@ -1,6 +1,5 @@
 import styles from "@/components/Plugs/Intro.module.css"
 import AboutWave from "@/components/Plugs/AboutWave"
-// import HeroSlider from "@/components/HeroSlider/HeroSlider"
 import Image from "next/image"
 
 export default function About() {

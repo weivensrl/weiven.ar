@@ -4,7 +4,7 @@ import Image from "next/image"
 export default function Objective() {
   return (
     <div className={styles.container}>
-      <div className="py-24 text-gray-800 bg-fixed bg-gradient-to-b from-white to-gray-300">
+      <div className="py-24 text-gray-800 bg-fixed bg-gradient-to-br from-white to-gray-200">
         <div className="grid max-w-5xl gap-3 mx-auto md:grid-cols-2">
           <div>
             <Image
@@ -16,7 +16,7 @@ export default function Objective() {
             />
           </div>
           <div className="px-6 text-center md:text-left ">
-            <h3 className="pt-12 mb-6 text-3xl text-gray-800 ">Nuestro Objetivo</h3>
+            <h3 className="pt-12 mb-6 text-3xl font-bold text-gray-800 ">Nuestro Objetivo</h3>
             <div className="max-w-xl mx-auto text-gray-800">
               <p>
                 La misión de Weiven es brindar a sus clientes servicios y productos de
