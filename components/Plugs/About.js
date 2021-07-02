@@ -14,7 +14,7 @@ export default function About() {
           alt="Weiven"
         />
       </div>
-      <p className="w-full max-w-2xl py-12 mx-auto text-2xl text-center">
+      <p className="w-full max-w-2xl pb-12 mx-auto text-2xl text-center">
         Somos una empresa argentina de tecnología que brinda soluciones estratégicas para
         problemas complejos. Trabajamos en múltiples sectores, incluyendo salud, finanzas,
         educación y sector público.

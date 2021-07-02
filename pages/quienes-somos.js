@@ -14,7 +14,7 @@ export default function AboutPage() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <main className={styles.main}>
-          <div className="min-h-screen bg-white">
+          <div className="min-h-screen bg-gradient-to-b from-purple-200 to-white">
             <About />
             <Partners />
           </div>

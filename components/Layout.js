@@ -62,7 +62,7 @@ export default function Container(props) {
       </button>
       <Headroom disableInlineStyles>
         <div className="max-w-full px-4 mx-auto lg:px-0 lg:max-w-5xl">
-          <nav className="flex items-center justify-between w-full py-6 lg:py-0 ">
+          <nav className="flex items-center justify-between w-full py-4 md:py-6 lg:py-0 ">
             <a href="#skip" className="sr-only skip-nav">
               Skip to content
             </a>
