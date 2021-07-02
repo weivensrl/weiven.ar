@@ -1,5 +1,5 @@
 .Footer {
-  @apply flex flex-col items-start justify-center w-full max-w-3xl mx-auto mb-8;
+  @apply flex flex-col items-center justify-center w-full mx-auto mb-8;
 }
 
 :global(.dark) .Footer {

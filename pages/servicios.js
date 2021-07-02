@@ -2,6 +2,7 @@ import Head from "next/head"
 import styles from "../styles/Home.module.css"
 import Layout from "@/components/Layout"
 import Services from "@/components/Plugs/Services"
+import Security from "@/components/Plugs/Security"
 
 export default function ServicesPage() {
   return (
@@ -14,6 +15,7 @@ export default function ServicesPage() {
         </Head>
         <main className={styles.main}>
           <Services />
+          <Security />
         </main>
       </div>
     </Layout>

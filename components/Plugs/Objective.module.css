@@ -1,7 +1,7 @@
 .container {
-  @apply w-full py-24 font-bold text-center;
+  @apply relative grid w-full grid-cols-1 ;
 }
 
 .container p {
-  @apply my-2;
+  @apply my-2 font-normal;
 }

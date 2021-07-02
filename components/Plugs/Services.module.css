@@ -1,27 +1,27 @@
 .container {
-  @apply flex flex-col px-3 py-24 bg-white md:px-0;
+  @apply flex flex-col px-3 py-2 bg-white md:px-0;
 }
 
 .Title {
-  @apply text-2xl font-bold text-center;
+  @apply pt-12 text-4xl font-bold text-center text-gray-900 border-t border-gray-100;
 }
 
 .services {
-  @apply grid w-full gap-8 py-24 mx-auto bg-white md:grid-cols-3 max-w-7xl;
+  @apply grid w-full max-w-6xl gap-8 py-12 mx-auto md:grid-cols-3;
 }
 
 .item {
-  @apply mb-3 text-center;
+  @apply px-0 text-center;
 }
 
 .itemTitle {
-  @apply mb-2 text-xl font-bold text-blue-500;
+  @apply mt-3 text-xl font-bold text-blue-500;
 }
 
 .subtitle {
-  @apply mb-2 text-xl text-gray-600;
+  @apply mb-3 text-xl text-gray-600;
 }
 
 .item p {
-  @apply text-sm;
+  @apply text-sm text-gray-900;
 }
