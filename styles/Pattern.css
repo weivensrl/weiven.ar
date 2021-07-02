@@ -219,7 +219,7 @@
   );
   background-size: 50px 50px;
 }
-.pattern-diagonal-lines-lg {
+/* .pattern-diagonal-lines-lg {
   background-image: repeating-linear-gradient(
     45deg,
     currentColor 0,
@@ -228,7 +228,20 @@
     transparent 50%
   );
   background-size: 50px 50px;
+} */
+
+.pattern-diagonal-lines-lg {
+  background-image: repeating-linear-gradient(
+    67deg,
+    currentColor -20px,
+    currentColor 1px,
+    transparent 50%,
+    transparent 0%
+  );
+  background-size: 50px 50px;
+  background-position: 0 0;
 }
+
 .pattern-vertical-lines-xl {
   background-image: repeating-linear-gradient(
     to right,

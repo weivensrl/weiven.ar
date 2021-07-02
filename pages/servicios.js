@@ -14,8 +14,14 @@ export default function ServicesPage() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <main className={styles.main}>
-          <Services />
+          <div className="bg-gradient-to-br from-blue-500 to-blue-800">
+            <h1 className="py-24 text-4xl font-bold text-center text-gray-100">
+              Servicios
+            </h1>
+            <Services />
           <Security />
+          </div>
+          
         </main>
       </div>
     </Layout>

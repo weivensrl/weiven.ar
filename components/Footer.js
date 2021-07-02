@@ -11,7 +11,6 @@ const ExternalLink = ({ href, children }) => (
 export default function Footer() {
   return (
     <footer className={styles.Footer}>
-      <hr className={styles.Divider} />
       <div className="w-full kush-center">
         <Image
           src="/static/images/weiven-vertical.png"

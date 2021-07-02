@@ -1,15 +1,9 @@
 import Head from "next/head"
 import styles from "../styles/Home.module.css"
 import Layout from "@/components/Layout"
-import Intro from "@/components/Plugs/Intro"
-import About from "@/components/Plugs/About"
-import Services from "@/components/Plugs/Services"
-import Security from "@/components/Plugs/Security"
-import Partners from "@/components/Plugs/Partners"
 import Objective from "@/components/Plugs/Objective"
-import Image from "next/image"
 
-export default function Home() {
+export default function ServicesPage() {
   return (
     <Layout>
       <div className={styles.container}>
@@ -19,15 +13,12 @@ export default function Home() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <main className={styles.main}>
-          <Intro />
-          <About />
-          <div className="bg-white">
-          <h2 className={styles.Title}>Servicios</h2>
+          <div className="bg-gradient-to-br from-yellow-500 to-yellow-700">
+            <h1 className="py-24 text-4xl font-bold text-center text-gray-100">
+              Contacto
+            </h1>
+            <Objective />
           </div>
-          <Services />
-          <Security />
-          <Partners />
-          <Objective />
         </main>
       </div>
     </Layout>

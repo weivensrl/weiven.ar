@@ -4,7 +4,7 @@ import Image from "next/image"
 export default function Objective() {
   return (
     <div className={styles.container}>
-      <div className="py-24 text-gray-200 bg-fixed bg-gray-100 pattern-diagonal-lines-lg">
+      <div className="py-24 text-gray-800 bg-fixed bg-gradient-to-b from-white to-gray-300">
         <div className="grid max-w-5xl gap-3 mx-auto md:grid-cols-2">
           <div>
             <Image
@@ -32,7 +32,7 @@ export default function Objective() {
           </div>
         </div>
       </div>
-      <div className="absolute bottom-0 w-full h-12 mt-6 bg-yellow-500"></div>
+      <div className="relative w-full h-12 bg-yellow-500 shadow-xl"></div>
     </div>
   )
 }

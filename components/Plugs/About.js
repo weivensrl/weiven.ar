@@ -6,22 +6,19 @@ import Image from "next/image"
 export default function About() {
   return (
     <div className={styles.container}>
-      <div className="relative z-10 flex flex-col items-start justify-center w-full max-w-5xl px-6 mx-auto text-left md:px-0">
-        <h1 className="w-full mx-auto mb-3 text-6xl text-gray-100 ">
-          Simplificamos <br/> la tecnología
-        </h1>
-        <h2 className="w-full max-w-md my-3 text-2xl text-left text-gray-100">
-          Expertos en tecnología para negocios y organizaciones gubernamentales.
-        </h2>
-      </div>
-      <div className="absolute inset-0 z-0 opacity-50">
+      <div className="mt-24 kush-center">
         <Image
-          src="/static/images/about-weiven.jpg"
-          layout="fill"
-          objectFit="cover"
-          alt="Diseño de servicios"
+          src="/static/images/weiven-vertical.png"
+          width="150"
+          height="70"
+          alt="Weiven"
         />
       </div>
+      <p className="w-full max-w-2xl py-12 mx-auto text-2xl text-center">
+        Somos una empresa argentina de tecnología que brinda soluciones estratégicas para
+        problemas complejos. Trabajamos en múltiples sectores, incluyendo salud, finanzas,
+        educación y sector público.
+      </p>
       <AboutWave />
     </div>
   )
