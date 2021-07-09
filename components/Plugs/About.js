@@ -6,7 +6,7 @@ import Image from "next/image"
 export default function About() {
   return (
     <div className={styles.container}>
-      <div className="mt-24 kush-center">
+      <div className="mt-12 kush-center">
         <Image
           src="/static/images/weiven-vertical.png"
           width="150"

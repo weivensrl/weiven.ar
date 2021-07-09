@@ -32,7 +32,7 @@ export default function Objective() {
           </div>
         </div>
       </div>
-      <div className="relative w-full h-12 bg-yellow-500 shadow-xl"></div>
+      <div className="relative w-full h-12 bg-blue-500 shadow-xl"></div>
     </div>
   )
 }
