@@ -8,7 +8,12 @@ export default function Solutions() {
         <div className="grid max-w-5xl gap-3 mx-auto md:grid-cols-2">
           <div className="px-6 text-center md:text-left ">
             <div className="">
-              <Image src="/static/images/icono-servicios.png" width="150" height="150" alt="Diseño de servicios"/>
+              <Image
+                src="/static/images/icono-servicios.png"
+                width="150"
+                height="150"
+                alt="Diseño de servicios"
+              />
             </div>
             <h3 className="pt-2 mb-6 text-3xl font-bold text-gray-800 ">
               Soluciones a medida
@@ -24,7 +29,12 @@ export default function Solutions() {
           </div>
           <div className="px-6 text-center md:text-left ">
             <div className="">
-            <Image src="/static/images/icono-desarrollo.png" width="150" height="150" alt="Diseño de servicios"/>
+              <Image
+                src="/static/images/icono-desarrollo.png"
+                width="150"
+                height="150"
+                alt="Diseño de servicios"
+              />
             </div>
             <h3 className="pt-2 mb-6 text-3xl font-bold text-gray-800 ">Data Centers</h3>
             <div className="max-w-xl mx-auto text-gray-800">

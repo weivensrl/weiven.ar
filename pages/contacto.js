@@ -2,6 +2,7 @@ import Head from "next/head"
 import styles from "../styles/Home.module.css"
 import Layout from "@/components/Layout"
 import Objective from "@/components/Plugs/Objective"
+import Solutions from "@/components/Plugs/Solutions"
 
 export default function ServicesPage() {
   return (
@@ -17,12 +18,13 @@ export default function ServicesPage() {
             <h1 className="py-24 text-4xl font-bold text-center text-gray-100">
               Contacto
             </h1>
-            <div>
-              Florida 141 2 piso
+            <div className="py-12 text-center bg-white">
+              <div>Florida 141 2 piso</div>
+              <a className="" href="mailto:info@weiven.ar">
+                info@weiven.ar
+              </a>
             </div>
-            <a className="" href="mailto:info@weiven.ar">
-            info@weiven.ar
-            </a>
+            <Solutions />
             <Objective />
           </div>
         </main>
