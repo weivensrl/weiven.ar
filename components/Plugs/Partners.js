@@ -4,7 +4,7 @@ import Image from "next/image"
 export default function Partners() {
   return (
     <div className={styles.container}>
-      <div className="grid max-w-5xl gap-3 mx-auto md:grid-cols-2">
+      <div className="grid max-w-5xl gap-3 pt-24 mx-auto md:grid-cols-2">
         <div className="px-6 text-center md:text-left ">
           <h1 className="w-full mx-auto mb-6 text-4xl font-bold text-gray-900">Socios</h1>
           <div className="max-w-xl mx-auto text-gray-800">
@@ -20,9 +20,9 @@ export default function Partners() {
             </h2>
           </div>
         </div>
-        <div>
+        <div className="shadow-xl">
           <Image
-            src="/static/images/about-weiven.jpg"
+            src="/static/images/socios.jpg"
             width="1800"
             height="1151"
             layout="responsive"

@@ -10,6 +10,7 @@ import Objective from "@/components/Plugs/Objective"
 import Solutions from "@/components/Plugs/Solutions"
 import Agile from "@/components/Plugs/Agile"
 import Image from "next/image"
+import HeroContact from "@/components/Heros/HeroContact"
 
 export default function Home() {
   return (
@@ -32,6 +33,7 @@ export default function Home() {
           <Agile/>
           <Partners />
           <Objective />
+          <HeroContact/>
         </main>
       </div>
     </Layout>

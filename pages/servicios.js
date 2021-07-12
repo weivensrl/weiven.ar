@@ -3,6 +3,10 @@ import styles from "../styles/Home.module.css"
 import Layout from "@/components/Layout"
 import Services from "@/components/Plugs/Services"
 import Security from "@/components/Plugs/Security"
+import Solutions from "@/components/Plugs/Solutions"
+import Agile from "@/components/Plugs/Agile"
+import Hero from "@/components/Heros/HeroServices"
+import HeroContact from "@/components/Heros/HeroContact"
 
 export default function ServicesPage() {
   return (
@@ -14,14 +18,14 @@ export default function ServicesPage() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <main className={styles.main}>
+          <Hero />
           <div className="bg-gradient-to-br from-blue-500 to-blue-800">
-            <h1 className="py-24 text-4xl font-bold text-center text-gray-100">
-              Servicios
-            </h1>
             <Services />
-          <Security />
+            <Security />
+            <Solutions />
+            <Agile />
+            <HeroContact/>
           </div>
-          
         </main>
       </div>
     </Layout>

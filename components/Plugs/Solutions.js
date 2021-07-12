@@ -6,7 +6,7 @@ export default function Solutions() {
     <div className={styles.container}>
       <div className="py-24 text-gray-800 bg-white">
         <div className="grid max-w-5xl gap-3 mx-auto md:grid-cols-2">
-          <div className="px-6 text-center md:text-left ">
+          <div className="px-6 text-center ">
             <div className="">
               <Image
                 src="/static/images/icono-servicios.png"
@@ -18,7 +18,7 @@ export default function Solutions() {
             <h3 className="pt-2 mb-6 text-3xl font-bold text-gray-800 ">
               Soluciones a medida
             </h3>
-            <div className="max-w-xl mx-auto text-gray-800">
+            <div className="max-w-2xl mx-auto text-gray-800">
               <p>
                 Ofrecemos soluciones innovadoras con velocidad y agilidad. Nuestra
                 independencia tecnológica, combinada con un amplio ecosistema de socios y
@@ -27,7 +27,7 @@ export default function Solutions() {
               </p>
             </div>
           </div>
-          <div className="px-6 text-center md:text-left ">
+          <div className="px-6 text-center ">
             <div className="">
               <Image
                 src="/static/images/icono-desarrollo.png"
@@ -37,7 +37,7 @@ export default function Solutions() {
               />
             </div>
             <h3 className="pt-2 mb-6 text-3xl font-bold text-gray-800 ">Data Centers</h3>
-            <div className="max-w-xl mx-auto text-gray-800">
+            <div className="max-w-2xl mx-auto text-gray-800">
               <p>
                 Diseñamos y construimos datas centers llave en mano. Realizamos el
                 análisis y la planificación, la arquitectura, la flexibilidad, los
