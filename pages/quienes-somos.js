@@ -3,6 +3,7 @@ import styles from "../styles/Home.module.css"
 import Layout from "@/components/Layout"
 import About from "@/components/Plugs/About"
 import Partners from "@/components/Plugs/Partners"
+import HeroContact from "@/components/Heros/HeroContact"
 
 export default function AboutPage() {
   return (
@@ -17,6 +18,7 @@ export default function AboutPage() {
           <div className="min-h-screen bg-gradient-to-b from-purple-200 to-white">
             <About />
             <Partners />
+            <HeroContact/>
           </div>
         </main>
       </div>
