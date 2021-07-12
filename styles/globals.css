@@ -30,5 +30,5 @@ a {
 }
 
 *::-webkit-scrollbar-thumb {
-  @apply bg-gray-800 bg-gradient-to-br from-blue-600 to-blue-800;
+  @apply bg-gray-800 bg-gradient-to-br from-gray-600 to-gray-800;
 }

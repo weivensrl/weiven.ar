@@ -1,11 +1,13 @@
 import styles from "@/components/Plugs/Solutions.module.css"
 import Image from "next/image"
+import Fade from "react-reveal/Fade"
 
 export default function Solutions() {
   return (
     <div className={styles.container}>
       <div className="py-24 text-gray-800 bg-white">
         <div className="grid max-w-5xl gap-3 mx-auto md:grid-cols-2">
+        <Fade>
           <div className="px-6 text-center ">
             <div className="">
               <Image
@@ -27,6 +29,8 @@ export default function Solutions() {
               </p>
             </div>
           </div>
+          </Fade>
+          <Fade>
           <div className="px-6 text-center ">
             <div className="">
               <Image
@@ -47,6 +51,7 @@ export default function Solutions() {
               </p>
             </div>
           </div>
+          </Fade>
         </div>
       </div>
     </div>

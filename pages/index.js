@@ -11,6 +11,7 @@ import Solutions from "@/components/Plugs/Solutions"
 import Agile from "@/components/Plugs/Agile"
 import Image from "next/image"
 import HeroContact from "@/components/Heros/HeroContact"
+import Fade from "react-reveal/Fade"
 
 export default function Home() {
   return (
@@ -25,15 +26,17 @@ export default function Home() {
           <Intro />
           <About />
           <div className="bg-white">
-          <h2 className={styles.Title}>Servicios</h2>
+            <Fade>
+              <h2 className={styles.Title}>Servicios</h2>
+            </Fade>
           </div>
           <Services />
           <Security />
           <Solutions />
-          <Agile/>
+          <Agile />
           <Partners />
           <Objective />
-          <HeroContact/>
+          <HeroContact />
         </main>
       </div>
     </Layout>
