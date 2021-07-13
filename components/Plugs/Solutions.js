@@ -11,11 +11,12 @@ export default function Solutions() {
           <div className="px-6 text-center ">
             <div className="">
               <Image
-                src="/static/images/icono-servicios.png"
+                src="/static/images/icono-servicios.svg"
                 width="150"
-                height="150"
+                height="208"
                 alt="Diseño de servicios"
               />
+              
             </div>
             <h3 className="pt-2 mb-6 text-3xl font-bold text-gray-800 ">
               Soluciones a medida
@@ -34,9 +35,9 @@ export default function Solutions() {
           <div className="px-6 text-center ">
             <div className="">
               <Image
-                src="/static/images/icono-desarrollo.png"
+                src="/static/images/icono-desarrollo.svg"
                 width="150"
-                height="150"
+                height="208"
                 alt="Diseño de servicios"
               />
             </div>

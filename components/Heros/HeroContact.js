@@ -1,7 +1,6 @@
 import styles from "@/components/Heros/Hero.module.css"
 import AboutWave from "@/components/Plugs/AboutWave"
 import Image from "next/image"
-
 export default function HeroContact() {
   return (
     <div className={styles.container}>
@@ -10,10 +9,15 @@ export default function HeroContact() {
           Contacto
         </h1>
         <div className="pt-6 text-center ">
-          <a className="text-2xl duration-200 transform border-b-2 border-transparent hover:border-white" href="mailto:info@weiven.ar">
+          <a
+            className="text-2xl duration-200 transform border-b-2 border-transparent kush-center hover:border-white"
+            href="mailto:info@weiven.ar"
+          >
             info@weiven.ar
           </a>
-          <div className="pt-6 text-2xl">Florida 141 - 2do piso</div>
+          <div className="pt-6 text-2xl kush-center">
+            Florida 141 - 2do piso
+          </div>
         </div>
       </div>
       <div className="absolute inset-0 z-0 bg-gray-800 bg-opacity-50 ">

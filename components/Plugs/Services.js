@@ -39,7 +39,7 @@ export default function Services() {
               <h4 className={styles.subtitle}>Software Factory</h4>
               <p>
                 Brindamos soluciones en software y aplicaciones móviles. Somos partner de
-                las empresas líderes del mercado del en el mercado pudiendo dar soluciones
+                las empresas líderes en el mercado pudiendo dar soluciones
                 con software licenciatario o software libre ofreciendo el soporte y
                 desarrollo de software propietario de manera personalizada.
               </p>
