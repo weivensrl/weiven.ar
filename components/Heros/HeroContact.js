@@ -5,7 +5,7 @@ import Image from "next/image"
 export default function HeroContact() {
   return (
     <div className={styles.container}>
-      <div className="relative z-10 flex flex-col items-center justify-center w-full max-w-5xl px-6 py-32 mx-auto text-left md:py-64 md:px-0">
+      <div className="relative z-10 flex flex-col items-center justify-center w-full max-w-5xl px-6 py-64 mx-auto text-left md:px-0">
         <h1 className="w-full mx-auto mb-3 text-3xl font-bold tracking-wider text-center text-gray-100 md:text-6xl ">
           Contacto
         </h1>
