@@ -16,7 +16,9 @@ export default function Objective() {
             />
           </div>
           <div className="px-6 text-center md:text-left ">
-            <h3 className="pt-12 mb-6 text-3xl font-bold text-gray-800 ">Nuestro Objetivo</h3>
+            <h3 className="pt-12 mb-6 text-3xl font-bold text-gray-800 ">
+              Nuestro Objetivo
+            </h3>
             <div className="max-w-xl mx-auto text-gray-800">
               <p>
                 La misión de Weiven es brindar a sus clientes servicios y productos de
@@ -32,7 +34,6 @@ export default function Objective() {
           </div>
         </div>
       </div>
-      <div className="relative w-full h-12 bg-blue-500 shadow-xl"></div>
     </div>
   )
 }

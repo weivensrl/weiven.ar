@@ -19,7 +19,7 @@ export default function Services() {
           <Fade>
             <div className={styles.item}>
               <div className="kush-center">
-                <FcMindMap className="mb-3 text-5xl" />
+                <FcMindMap className="mb-3 text-6xl" />
               </div>
               <h3 className={styles.itemTitle}>Diseño de servicios</h3>
               <h4 className={styles.subtitle}>Service Design</h4>
@@ -33,7 +33,7 @@ export default function Services() {
           <Fade>
             <div className={styles.item}>
               <div className="kush-center">
-                <FcSettings className="mb-3 text-5xl" />
+                <FcSettings className="mb-3 text-6xl" />
               </div>
               <h3 className={styles.itemTitle}>Desarrollo de Software</h3>
               <h4 className={styles.subtitle}>Software Factory</h4>
@@ -48,7 +48,7 @@ export default function Services() {
           <Fade>
             <div className={styles.item}>
               <div className="kush-center">
-                <FcMultipleDevices className="mb-3 text-5xl" />
+                <FcMultipleDevices className="mb-3 text-6xl" />
               </div>
               <h3 className={styles.itemTitle}>Experiencia de usuario</h3>
               <h4 className={styles.subtitle}>UX/UI</h4>
@@ -63,7 +63,7 @@ export default function Services() {
           <Fade>
             <div className={styles.item}>
               <div className="kush-center">
-                <FcDataProtection className="mb-3 text-5xl" />
+                <FcDataProtection className="mb-3 text-6xl" />
               </div>
               <h3 className={styles.itemTitle}>Soluciones en infraestructura</h3>
               <p>
@@ -75,7 +75,7 @@ export default function Services() {
           <Fade>
             <div className={styles.item}>
               <div className="kush-center">
-                <FcSafe className="mb-3 text-5xl" />
+                <FcSafe className="mb-3 text-6xl" />
               </div>
               <h3 className={styles.itemTitle}>
                 Blockchain, criptomonedas y desarrollo de billeteras virtuales.
@@ -92,7 +92,7 @@ export default function Services() {
           <Fade>
             <div className={styles.item}>
               <div className="kush-center">
-                <FcOrganization className="mb-3 text-5xl" />
+                <FcOrganization className="mb-3 text-6xl" />
               </div>
               <h3 className={styles.itemTitle}>Smart Cities</h3>
               <p>

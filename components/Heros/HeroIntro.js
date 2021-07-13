@@ -1,11 +1,11 @@
-import styles from "@/components/Plugs/Intro.module.css"
+import styles from "@/components/Heros/HeroIntro.module.css"
 import AboutWave from "@/components/Plugs/AboutWave"
 import Image from "next/image"
 import Fade from "react-reveal/Fade"
 export default function About() {
   return (
     <div className={styles.container}>
-      <div className="relative z-10 flex flex-col items-start justify-center w-full max-w-5xl px-6 mx-auto text-left md:px-0">
+      <div className="relative z-10 flex flex-col items-start justify-center w-full max-w-5xl px-6 mx-auto text-left md:px-4">
         <Fade>
           <h1 className="w-full mx-auto mb-3 text-3xl text-gray-100 md:text-6xl ">
             Simplificamos <br /> la tecnología

@@ -45,10 +45,10 @@ export default function Partners() {
             />
           </div>
         </Fade>
-        <div className="px-6 text-center md:text-left ">
+        <div className="px-6 text-center md:text-left kush-center ">
           <div className="max-w-xl mx-auto text-gray-800">
-            <h1 className="w-full mx-auto mb-6 text-4xl font-bold text-blue-500">
-              Cámara de la Industria del Software
+            <h1 className="w-full mx-auto my-6 text-4xl font-bold text-blue-500">
+              CESSI
             </h1>
             <h2 className="w-full mx-auto mb-3 text-xl text-gray-900">
               Somos socios de la Cámara de la Industria del Software y tenemos alianzas

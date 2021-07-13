@@ -55,7 +55,7 @@ export default function HeroHomeCarousel(props) {
           <Fade>
             <div>
               <Image
-                src="/static/images/about-weiven.jpg"
+                src="/static/images/contacto.jpg"
                 layout="fill"
                 objectFit="cover"
                 alt="Diseño de servicios"
@@ -65,7 +65,7 @@ export default function HeroHomeCarousel(props) {
           <Fade>
             <div>
               <Image
-                src="/static/images/about-weiven.jpg"
+                src="/static/images/data-center.jpg"
                 layout="fill"
                 objectFit="cover"
                 alt="Diseño de servicios"
@@ -75,7 +75,7 @@ export default function HeroHomeCarousel(props) {
           <Fade>
             <div>
               <Image
-                src="/static/images/about-weiven.jpg"
+                src="/static/images/socios.jpg"
                 layout="fill"
                 objectFit="cover"
                 alt="Diseño de servicios"

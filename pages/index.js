@@ -1,7 +1,7 @@
 import Head from "next/head"
 import styles from "../styles/Home.module.css"
 import Layout from "@/components/Layout"
-import Intro from "@/components/Plugs/Intro"
+import Intro from "@/components/Heros/HeroIntro"
 import About from "@/components/Plugs/About"
 import Services from "@/components/Plugs/Services"
 import Security from "@/components/Plugs/Security"
@@ -9,9 +9,9 @@ import Partners from "@/components/Plugs/Partners"
 import Objective from "@/components/Plugs/Objective"
 import Solutions from "@/components/Plugs/Solutions"
 import Agile from "@/components/Plugs/Agile"
-import Image from "next/image"
 import HeroContact from "@/components/Heros/HeroContact"
 import Fade from "react-reveal/Fade"
+import Image from "next/image"
 
 export default function Home() {
   return (

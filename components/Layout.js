@@ -8,7 +8,7 @@ import Footer from "@/components/Footer"
 import Headroom from "react-headroom"
 import { HiOutlineLightBulb, HiLightBulb } from "react-icons/hi"
 import { MdLightbulbOutline } from "react-icons/md"
-import Image from 'next/image'
+import Image from "next/image"
 
 export default function Container(props) {
   const [mounted, setMounted] = useState(false)
@@ -61,7 +61,7 @@ export default function Container(props) {
         )}
       </button>
       <Headroom disableInlineStyles>
-        <div className="max-w-full px-4 mx-auto lg:px-0 lg:max-w-5xl">
+        <div className="max-w-full px-4 mx-auto lg:max-w-5xl">
           <nav className="flex items-center justify-between w-full py-4 md:py-6 lg:py-0 ">
             <a href="#skip" className="sr-only skip-nav">
               Skip to content
@@ -69,7 +69,7 @@ export default function Container(props) {
             <div className="ml-0 text-xl font-bold tracking-wider ">
               <NextLink href="/">
                 <a className="block mt-1 hover:opacity-80">
-                  <Image src="/logo.svg" width="150" height="30" alt="Weiven"/>
+                  <Image src="/logo.svg" width="150" height="30" alt="Weiven" />
                 </a>
               </NextLink>
             </div>
@@ -95,7 +95,7 @@ export default function Container(props) {
       </Headroom>
       <main
         id="skip"
-        className="flex flex-col justify-center pt-12 bg-white dark:bg-gray-900"
+        className="flex flex-col justify-center pt-16 bg-white md:pt-12 dark:bg-gray-900"
       >
         {children}
         <Footer />
