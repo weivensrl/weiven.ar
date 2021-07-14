@@ -8,7 +8,7 @@ export default function HeroService() {
     <div className={styles.container}>
       <div className="relative z-10 flex flex-col items-center justify-center w-full max-w-5xl px-6 mx-auto text-left md:px-0">
         <h1 className="w-full mx-auto mb-3 text-3xl text-center text-gray-100 md:text-6xl ">
-          <Fade delay={600} cascade duration={1200}>
+          <Fade delay={200} cascade duration={1200}>
             Servicios
           </Fade>
         </h1>
