@@ -6,7 +6,6 @@ import {
   FcOrganization,
   FcSettings,
   FcMultipleDevices,
-  FcIdea,
   FcSafe,
 } from "react-icons/fc"
 import Fade from "react-reveal/Fade"
@@ -16,7 +15,7 @@ export default function Services() {
     <div className={styles.container}>
       <div className="bg-white">
         <div className={styles.services}>
-          <Fade delay={200} bottom duration={1200}>
+          <Fade delay={200} duration={1200}>
             <div className={styles.item}>
               <div className="kush-center">
                 <FcMindMap className="mb-3 text-6xl" />
@@ -30,7 +29,7 @@ export default function Services() {
               </p>
             </div>
           </Fade>
-          <Fade delay={400} bottom duration={1200}>
+          <Fade delay={400} duration={1200}>
             <div className={styles.item}>
               <div className="kush-center">
                 <FcSettings className="mb-3 text-6xl" />
@@ -45,7 +44,7 @@ export default function Services() {
               </p>
             </div>
           </Fade>
-          <Fade delay={600} bottom duration={1200}>
+          <Fade delay={600} duration={1200}>
             <div className={styles.item}>
               <div className="kush-center">
                 <FcMultipleDevices className="mb-3 text-6xl" />
@@ -60,7 +59,7 @@ export default function Services() {
               </p>
             </div>
           </Fade>
-          <Fade delay={200} bottom duration={1200}>
+          <Fade delay={200} duration={1200}>
             <div className={styles.item}>
               <div className="kush-center">
                 <FcDataProtection className="mb-3 text-6xl" />
@@ -72,7 +71,7 @@ export default function Services() {
               </p>
             </div>
           </Fade>
-          <Fade delay={400} bottom duration={1200}>
+          <Fade delay={400} duration={1200}>
             <div className={styles.item}>
               <div className="kush-center">
                 <FcSafe className="mb-3 text-6xl" />
@@ -89,7 +88,7 @@ export default function Services() {
               </p>
             </div>
           </Fade>
-          <Fade delay={600} bottom duration={1200}>
+          <Fade delay={600} duration={1200}>
             <div className={styles.item}>
               <div className="kush-center">
                 <FcOrganization className="mb-3 text-6xl" />
