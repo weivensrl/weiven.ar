@@ -26,7 +26,7 @@ export default function Home() {
           <Intro />
           <About />
           <div className="bg-white">
-            <Fade>
+            <Fade delay={200} bottom duration={1200}>
               <h2 className={styles.Title}>Servicios</h2>
             </Fade>
           </div>

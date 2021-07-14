@@ -16,7 +16,7 @@ export default function Services() {
     <div className={styles.container}>
       <div className="bg-white">
         <div className={styles.services}>
-          <Fade>
+          <Fade delay={200} bottom duration={1200}>
             <div className={styles.item}>
               <div className="kush-center">
                 <FcMindMap className="mb-3 text-6xl" />
@@ -30,7 +30,7 @@ export default function Services() {
               </p>
             </div>
           </Fade>
-          <Fade>
+          <Fade delay={400} bottom duration={1200}>
             <div className={styles.item}>
               <div className="kush-center">
                 <FcSettings className="mb-3 text-6xl" />
@@ -45,7 +45,7 @@ export default function Services() {
               </p>
             </div>
           </Fade>
-          <Fade>
+          <Fade delay={600} bottom duration={1200}>
             <div className={styles.item}>
               <div className="kush-center">
                 <FcMultipleDevices className="mb-3 text-6xl" />
@@ -60,7 +60,7 @@ export default function Services() {
               </p>
             </div>
           </Fade>
-          <Fade>
+          <Fade delay={200} bottom duration={1200}>
             <div className={styles.item}>
               <div className="kush-center">
                 <FcDataProtection className="mb-3 text-6xl" />
@@ -72,7 +72,7 @@ export default function Services() {
               </p>
             </div>
           </Fade>
-          <Fade>
+          <Fade delay={400} bottom duration={1200}>
             <div className={styles.item}>
               <div className="kush-center">
                 <FcSafe className="mb-3 text-6xl" />
@@ -89,7 +89,7 @@ export default function Services() {
               </p>
             </div>
           </Fade>
-          <Fade>
+          <Fade delay={600} bottom duration={1200}>
             <div className={styles.item}>
               <div className="kush-center">
                 <FcOrganization className="mb-3 text-6xl" />

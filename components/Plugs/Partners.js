@@ -21,7 +21,7 @@ export default function Partners() {
             </h2>
           </div>
         </div>
-        <Fade>
+        <Fade  delay={600} duration={1200}>
           <div className="relative overflow-hidden shadow-xl md:rounded-md">
             <Image
               src="/static/images/about-weiven.jpg"
@@ -34,7 +34,7 @@ export default function Partners() {
         </Fade>
       </div>
       <div className="grid max-w-5xl gap-3 pt-24 mx-auto md:grid-cols-2">
-        <Fade>
+        <Fade  delay={600} duration={1200}>
           <div className="relative overflow-hidden shadow-xl md:rounded-md">
             <Image
               src="/static/images/cessi-software.jpg"

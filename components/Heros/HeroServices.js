@@ -1,13 +1,16 @@
 import styles from "@/components/Heros/Hero.module.css"
 import AboutWave from "@/components/Plugs/AboutWave"
 import Image from "next/image"
+import Fade from "react-reveal/Fade"
 
 export default function HeroService() {
   return (
     <div className={styles.container}>
       <div className="relative z-10 flex flex-col items-center justify-center w-full max-w-5xl px-6 mx-auto text-left md:px-0">
         <h1 className="w-full mx-auto mb-3 text-3xl text-center text-gray-100 md:text-6xl ">
-        Servicios
+          <Fade delay={600} cascade duration={1200}>
+            Servicios
+          </Fade>
         </h1>
       </div>
       <div className="absolute inset-0 z-0 bg-blue-800 bg-opacity-50 ">
