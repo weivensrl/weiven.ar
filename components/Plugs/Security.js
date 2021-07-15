@@ -14,7 +14,7 @@ export default function Security() {
             Realizamos auditorias e implementaciones en Ciberseguridad.
           </div>
           <AnchorLink
-            className="flex items-center justify-center w-56 px-3 py-1 mx-auto mt-6 font-sans text-lg font-bold text-gray-800 transition-all duration-500 transform bg-white border-b-2 border-transparent rounded shadow-md hover:border-yellow-500 hover:text-yellow-600"
+            className="flex items-center justify-center w-full px-3 py-1 mx-auto mt-6 font-sans text-lg font-bold text-gray-800 transition-all duration-500 transform bg-white border-b-2 border-transparent rounded shadow-md md:w-56 hover:border-yellow-500 hover:text-yellow-600"
             href="#contact"
           >
             <span className="mr-3">Hacer una consulta</span>
