@@ -22,7 +22,8 @@ export default function Container(props) {
   const meta = {
     title: "Weiven",
     description: `Simplificamos la tecnología.`,
-    image: "https://res.cloudinary.com/santuan/image/upload/v1625517740/weiven/static/w0xrqakdkujw3vdug93i.png",
+    image:
+      "https://res.cloudinary.com/santuan/image/upload/v1625517740/weiven/static/w0xrqakdkujw3vdug93i.png",
     type: "website",
     ...customMeta,
   }
@@ -36,7 +37,7 @@ export default function Container(props) {
         <meta property="og:url" content={`https://weiven.ar${router.asPath}`} />
         <link rel="canonical" href={`https://weiven.ar${router.asPath}`} />
         <meta property="og:type" content={meta.type} />
-        <meta property="og:site_name" content="Santiago Couto" />
+        <meta property="og:site_name" content="Weiven" />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
@@ -46,6 +47,13 @@ export default function Container(props) {
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
         {meta.date && <meta property="article:published_time" content={meta.date} />}
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+        <meta name="msapplication-TileColor" content="#da532c" />
+        <meta name="theme-color" content="#ffffff" />
       </Head>
       <Offcanvas />
       <button
