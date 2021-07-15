@@ -10,7 +10,7 @@ export default function Security() {
         <Fade delay={200} duration={1200}>
           <h3 className="mb-2 text-3xl text-yellow-500 ">Seguridad informática</h3>
           <div className="max-w-2xl mx-auto text-xl text-white">
-            Contamos con los mejores profesionales del sector en Seguridad.
+            Contamos con los mejores profesionales del sector de Seguridad.
             Realizamos auditorias e implementaciones en Ciberseguridad.
           </div>
           <AnchorLink
