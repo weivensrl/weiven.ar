@@ -46,7 +46,7 @@ export default function HeroContact() {
             >
               <div className="relative overflow-hidden">
                 <Fade bottom duration={700} delay={200}>
-                  <span className="block p-2 mb-1 font-sans text-2xl font-light tracking-wider text-gray-100 duration-700 bg-blue-300 cursor-pointer select-all bg-opacity-10">
+                  <span className="block p-2 mb-1 font-sans text-2xl font-light tracking-wider text-gray-100 duration-700 bg-blue-300 cursor-pointer select-all hover:bg-opacity-25 bg-opacity-10">
                     info@weiven.ar
                   </span>
                 </Fade>
