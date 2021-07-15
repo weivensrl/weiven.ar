@@ -1,28 +1,60 @@
+import React from "react"
 import styles from "@/components/Heros/Hero.module.css"
 import AboutWave from "@/components/Plugs/AboutWave"
 import Image from "next/image"
 import Fade from "react-reveal/Fade"
 
+const copyToClipboard = (str) => {
+  const el = document.createElement("textarea")
+  el.value = str
+  el.setAttribute("readonly", "")
+  el.style.position = "absolute"
+  el.style.left = "-9999px"
+  document.body.appendChild(el)
+  el.select()
+  document.execCommand("copy")
+  document.body.removeChild(el)
+}
+
 export default function HeroContact() {
+  const [isCopied, setIsCopied] = React.useState(false)
   return (
     <div className={styles.container} id="contact">
       <div className="relative z-10 flex flex-col items-center justify-center w-full max-w-5xl px-6 py-64 mx-auto text-left md:px-0">
-        <Fade delay={600} cascade  duration={1200}>
+        <Fade delay={600} cascade duration={1200}>
           <h1 className="w-full mx-auto mb-3 text-3xl font-bold tracking-wider text-center text-gray-100 md:text-6xl ">
             Contacto
           </h1>
         </Fade>
         <div className="pt-6 text-center ">
           <Fade bottom delay={600} duration={1200}>
-            <a
-              className="text-2xl duration-200 transform border-b-2 border-transparent kush-center hover:border-white"
-              href="mailto:info@weiven.ar"
-            >
-              info@weiven.ar
-            </a>
+            <div className="py-6 text-2xl kush-center">Florida 141 - 2do piso</div>
           </Fade>
           <Fade bottom delay={600} duration={1200}>
-            <div className="pt-6 text-2xl kush-center">Florida 141 - 2do piso</div>
+            <button
+              onClick={() => {
+                copyToClipboard("info@weiven.ar")
+                setIsCopied(true)
+                setTimeout(() => setIsCopied(false), 3000)
+              }}
+              className={
+                "relative w-64 mt-1 mx-2 rounded-md pb-1 font-bold font-sans text-white  transform duration-700 " +
+                (isCopied
+                  ? "bg-gray-800 " + isCopied
+                  : "bg-opacity-10")
+              }
+            >
+              <div className="relative overflow-hidden">
+                <Fade bottom duration={700} delay={200}>
+                  <span className="block p-2 mb-1 font-sans text-2xl font-light tracking-wider text-gray-100 duration-700 bg-blue-300 cursor-pointer select-all bg-opacity-10">
+                    info@weiven.ar
+                  </span>
+                </Fade>
+              </div>
+              <span className="mb-2 text-xs">
+                {isCopied ? "Mail Copiado" : "Click para copiar mail"}
+              </span>
+            </button>
           </Fade>
         </div>
       </div>
