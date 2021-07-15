@@ -22,7 +22,7 @@ export default function Container(props) {
   const meta = {
     title: "Weiven",
     description: `Simplificamos la tecnología.`,
-    image: "https://weiven.ar/static/images/banner.png",
+    image: "https://res.cloudinary.com/santuan/image/upload/v1625517740/weiven/static/w0xrqakdkujw3vdug93i.png",
     type: "website",
     ...customMeta,
   }
