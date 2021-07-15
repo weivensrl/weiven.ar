@@ -6,6 +6,7 @@ import NextLink from "next/link"
 import Offcanvas from "@/components/Offcanvas/Offcanvas"
 import Footer from "@/components/Footer"
 import Headroom from "react-headroom"
+import { motion } from 'framer-motion';
 import { HiOutlineLightBulb, HiLightBulb } from "react-icons/hi"
 import { MdLightbulbOutline } from "react-icons/md"
 import Image from "next/image"
@@ -101,13 +102,28 @@ export default function Container(props) {
           </nav>
         </div>
       </Headroom>
-      <main
-        id="skip"
-        className="flex flex-col justify-center pt-16 bg-white md:pt-12 dark:bg-gray-900"
+      <motion.div
+        initial="pageInitial"
+        animate="pageAnimate"
+        key={router.route}
+        transition={{ type: "spring", duration: 0.8 }}
+        variants={{
+          pageInitial: {
+            opacity: 0,
+          },
+          pageAnimate: {
+            opacity: 1,
+          },
+        }}
       >
-        {children}
-        <Footer />
-      </main>
+        <main
+          id="skip"
+          className="flex flex-col justify-center pt-16 bg-white md:pt-12 dark:bg-gray-900"
+        >
+          {children}
+          <Footer />
+        </main>
+      </motion.div>
     </div>
   )
 }

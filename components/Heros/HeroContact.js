@@ -20,9 +20,9 @@ export default function HeroContact() {
   const [isCopied, setIsCopied] = React.useState(false)
   return (
     <div className={styles.container} id="contact">
-      <div className="relative z-10 flex flex-col items-center justify-center w-full max-w-5xl px-6 py-64 mx-auto text-left md:px-0">
+      <div className="relative z-10 flex flex-col items-center justify-center w-full max-w-5xl px-6 py-64 pt-40 mx-auto text-left md:px-0">
         <Fade delay={600} cascade duration={1200}>
-          <h1 className="w-full mx-auto mb-3 text-3xl font-bold tracking-wider text-center text-gray-100 md:text-6xl ">
+          <h1 className="w-full mx-auto mb-3 text-4xl font-bold tracking-wider text-center text-gray-100 md:text-6xl ">
             Contacto
           </h1>
         </Fade>
