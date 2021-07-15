@@ -25,8 +25,9 @@ export default function Home() {
         <main className={styles.main}>
           <Intro />
           <About />
+          <div className="relative z-30 h-12 text-gray-200 bg-white border-b-2 border-blue-500 md:-mt-12 pattern-diagonal-lines-sm"></div>
           <div className="bg-white">
-            <Fade delay={200} bottom duration={1200}>
+            <Fade delay={200} duration={1200}>
               <h2 className={styles.Title}>Servicios</h2>
             </Fade>
           </div>

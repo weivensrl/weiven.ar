@@ -5,7 +5,7 @@ import Fade from "react-reveal/Fade"
 
 export default function HeroContact() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="contact">
       <div className="relative z-10 flex flex-col items-center justify-center w-full max-w-5xl px-6 py-64 mx-auto text-left md:px-0">
         <Fade delay={600} cascade  duration={1200}>
           <h1 className="w-full mx-auto mb-3 text-3xl font-bold tracking-wider text-center text-gray-100 md:text-6xl ">

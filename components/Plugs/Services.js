@@ -17,8 +17,8 @@ export default function Services() {
         <div className={styles.services}>
           <Fade delay={200} duration={1200}>
             <div className={styles.item}>
-              <div className="kush-center">
-                <FcMindMap className="mb-3 text-6xl" />
+              <div className="absolute top-0 right-0 mx-3 mt-2 kush-center opacity-80">
+                <FcMindMap className="mb-3 text-4xl" />
               </div>
               <h3 className={styles.itemTitle}>Diseño de servicios</h3>
               <h4 className={styles.subtitle}>Service Design</h4>
@@ -31,8 +31,8 @@ export default function Services() {
           </Fade>
           <Fade delay={400} duration={1200}>
             <div className={styles.item}>
-              <div className="kush-center">
-                <FcSettings className="mb-3 text-6xl" />
+              <div className="absolute top-0 right-0 mx-3 mt-2 kush-center opacity-80">
+                <FcSettings className="mb-3 text-4xl" />
               </div>
               <h3 className={styles.itemTitle}>Desarrollo de Software</h3>
               <h4 className={styles.subtitle}>Software Factory</h4>
@@ -46,8 +46,8 @@ export default function Services() {
           </Fade>
           <Fade delay={600} duration={1200}>
             <div className={styles.item}>
-              <div className="kush-center">
-                <FcMultipleDevices className="mb-3 text-6xl" />
+              <div className="absolute top-0 right-0 mx-3 mt-2 kush-center opacity-80">
+                <FcMultipleDevices className="mb-3 text-4xl" />
               </div>
               <h3 className={styles.itemTitle}>Experiencia de usuario</h3>
               <h4 className={styles.subtitle}>UX/UI</h4>
@@ -61,8 +61,8 @@ export default function Services() {
           </Fade>
           <Fade delay={200} duration={1200}>
             <div className={styles.item}>
-              <div className="kush-center">
-                <FcDataProtection className="mb-3 text-6xl" />
+              <div className="absolute top-0 right-0 mx-3 mt-2 kush-center opacity-80">
+                <FcDataProtection className="mb-3 text-4xl" />
               </div>
               <h3 className={styles.itemTitle}>Soluciones en infraestructura</h3>
               <p>
@@ -73,25 +73,23 @@ export default function Services() {
           </Fade>
           <Fade delay={400} duration={1200}>
             <div className={styles.item}>
-              <div className="kush-center">
-                <FcSafe className="mb-3 text-6xl" />
+              <div className="absolute top-0 right-0 mx-3 mt-2 kush-center opacity-80">
+                <FcSafe className="mb-3 text-4xl" />
               </div>
               <h3 className={styles.itemTitle}>
-                Blockchain, criptomonedas y desarrollo de billeteras virtuales.
+                Blockchain
               </h3>
               <p>
-                Somos expertos en la aplicación y desarrollo de proyectos en blockchain,
-                criptomonedas e implementación de billeteras virtuales para gobiernos.
-                Acompañamos a los Estados de todos los niveles (Municipales, Provinciales
-                y Nacionales) en el abordaje tecnológico práctico basado en blockchain con
-                utilidad real para la gestión e implementación de políticas públicas.
+                Expertos en la aplicación y desarrollo de proyectos blockchain,
+                criptomonedas e implementación de billeteras virtuales para gobiernos
+                en todos sus niveles (Municipales, Provinciales y Nacionales). Abordaje tecnológico práctico con utilidad real para la gestión e implementación de políticas públicas.
               </p>
             </div>
           </Fade>
           <Fade delay={600} duration={1200}>
             <div className={styles.item}>
-              <div className="kush-center">
-                <FcOrganization className="mb-3 text-6xl" />
+              <div className="absolute top-0 right-0 mx-3 mt-2 kush-center opacity-80">
+                <FcOrganization className="mb-3 text-4xl" />
               </div>
               <h3 className={styles.itemTitle}>Smart Cities</h3>
               <p>

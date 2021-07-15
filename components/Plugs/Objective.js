@@ -1,5 +1,6 @@
 import styles from "@/components/Plugs/Objective.module.css"
 import Image from "next/image"
+import Fade from "react-reveal/Fade"
 
 export default function Objective() {
   return (
@@ -15,22 +16,24 @@ export default function Objective() {
               alt="Cámara de la Industria del Software"
             />
           </div>
-          <div className="px-6 text-center md:text-left ">
-            <h3 className="pt-12 mb-6 text-3xl font-bold text-gray-800 ">
-              Nuestro Objetivo
-            </h3>
-            <div className="max-w-xl mx-auto text-gray-800">
-              <p>
-                La misión de Weiven es brindar a sus clientes servicios y productos de
-                excelente calidad en forma ágil y eficiente respaldados por extensos
-                servicios de valor agregado.
-              </p>
-              <p>
-                De la mano de nuestros socios, te acompañamos a innovar más rápido, ser
-                más ágiles y agregar más valor a sus productos y servicios de manera
-                segura y simplificada
-              </p>
-            </div>
+          <div className="px-6 text-left ">
+            <Fade delay={600} duration={1200}>
+              <h3 className="pt-12 mb-6 text-3xl font-bold text-gray-800 ">
+                Nuestro Objetivo
+              </h3>
+              <div className="max-w-xl mx-auto text-gray-800">
+                <p>
+                  La misión de Weiven es brindar a sus clientes servicios y productos de
+                  excelente calidad en forma ágil y eficiente respaldados por extensos
+                  servicios de valor agregado.
+                </p>
+                <p>
+                  De la mano de nuestros socios, te acompañamos a innovar más rápido, ser
+                  más ágiles y agregar más valor a sus productos y servicios de manera
+                  segura y simplificada
+                </p>
+              </div>
+            </Fade>
           </div>
         </div>
       </div>

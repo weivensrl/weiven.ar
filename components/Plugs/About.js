@@ -3,11 +3,10 @@ import AboutWave from "@/components/Plugs/AboutWave"
 // import HeroSlider from "@/components/HeroSlider/HeroSlider"
 import Image from "next/image"
 import Fade from "react-reveal/Fade"
-
 export default function About() {
   return (
     <div className={styles.container}>
-      <div className="mt-12 kush-center">
+      <div className="mt-12 kush-center" id="about">
         <Fade delay={200} duration={1200}>
           <Image
             src="/static/images/weiven-vertical.png"
@@ -18,13 +17,15 @@ export default function About() {
         </Fade>
       </div>
       <Fade delay={400} duration={1200}>
-        <p className="w-full max-w-2xl px-2 pb-12 mx-auto text-2xl text-center">
+        <p className="w-full max-w-2xl px-4 pb-12 mx-auto text-lg text-center md:text-2xl">
           Somos una empresa argentina de tecnología que brinda soluciones estratégicas
           para problemas complejos. Trabajamos en múltiples sectores, incluyendo salud,
           finanzas, educación y sector público.
         </p>
       </Fade>
-      <AboutWave />
+      <div className="hidden md:block">
+        <AboutWave />
+      </div>
     </div>
   )
 }
