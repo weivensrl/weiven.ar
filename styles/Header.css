@@ -37,6 +37,14 @@
   transform: translateY(0%);
 }
 
+.headroom a {
+  @apply p-1 font-sans text-sm font-bold text-gray-900 duration-300 sm:py-4 sm:pl-6 dark:text-gray-100 hover:text-blue-600;
+}
+
+.headroom a.active {
+  @apply text-blue-500;
+}
+
 .theme-switch {
   @apply fixed flex items-center justify-center w-12 h-12 border-0 top-3 focus:outline-none right-32 lg:right-0 lg:top-0;
   z-index: 1000;

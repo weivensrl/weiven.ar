@@ -29,7 +29,6 @@ const Navigation = ({ closeMenu }) => (
       return (
         <Link href={route.slug} key={route.slug}>
           <a
-            className="p-3 my-1 font-sans text-lg font-light text-right text-gray-900 cursor-pointer dark:text-gray-100 hover:opacity-80"
             onClick={closeMenu}
             alt={route.ariaLabel}
             title={route.ariaLabel}

@@ -3,10 +3,11 @@ import { useRouter } from "next/router"
 import { useState, useEffect } from "react"
 import { useTheme } from "next-themes"
 import NextLink from "next/link"
+import ActiveLink from "@/components/ActiveLink"
 import Offcanvas from "@/components/Offcanvas/Offcanvas"
 import Footer from "@/components/Footer"
 import Headroom from "react-headroom"
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion"
 import { HiOutlineLightBulb, HiLightBulb } from "react-icons/hi"
 import { MdLightbulbOutline } from "react-icons/md"
 import Image from "next/image"
@@ -83,21 +84,9 @@ export default function Container(props) {
               </NextLink>
             </div>
             <div className="justify-end hidden uppercase lg:flex">
-              <NextLink href="/servicios">
-                <a className="p-1 font-sans text-sm font-bold text-gray-900 sm:py-4 sm:pl-6 dark:text-gray-100">
-                  Servicios
-                </a>
-              </NextLink>
-              <NextLink href="/quienes-somos">
-                <a className="p-1 font-sans text-sm font-bold text-gray-900 sm:py-4 sm:pl-6 dark:text-gray-100">
-                  Quienes Somos
-                </a>
-              </NextLink>
-              <NextLink href="/contacto">
-                <a className="p-1 font-sans text-sm font-bold text-gray-900 sm:py-4 sm:pl-6 dark:text-gray-100">
-                  Contacto
-                </a>
-              </NextLink>
+              <ActiveLink url="/servicios" title="Servicios" />
+              <ActiveLink url="/quienes-somos" title="Quienes Somos" />
+              <ActiveLink url="/contacto" title="Contacto" />
             </div>
           </nav>
         </div>
