@@ -28,7 +28,7 @@ export default function HeroContact() {
         </Fade>
         <div className="pt-6 text-center ">
           <Fade bottom delay={600} duration={1200}>
-            <div className="py-6 text-2xl kush-center">Florida 141 - 2do piso</div>
+            <div className="py-6 text-2xl kush-center">Piedras 575</div>
           </Fade>
           <Fade bottom delay={600} duration={1200}>
             <button

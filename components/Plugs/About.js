@@ -23,6 +23,7 @@ export default function About() {
           finanzas, educación y sector público.
         </p>
       </Fade>
+
       <div className="hidden md:block">
         <AboutWave />
       </div>

@@ -19,7 +19,7 @@ export default function Partners() {
                 <b className="text-blue-500">
                   {" "}
                   Hewlett Packard, Cisco, LG, Sony, APC, Epson, Motorola, Lenovo, Intel,
-                  AMD
+                  AMD, DELL, BANGHO, FORTINET
                 </b>
                 , entre otras; esto les permite a nuestros clientes encontrar un portfolio
                 completo para sus necesidades.
